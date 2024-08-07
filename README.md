@@ -1,6 +1,6 @@
-# California IMR Dataset PBAC Extension
+# California IMR Dataset PII Extension
 
-This repository contains a modified and extended version of the California Independent Medical Review (IMR) dataset, along with a Jupyter notebook that documents all changes.
+This repository contains a modified and extended version of the California Independent Medical Review (IMR) dataset, along with a Jupyter notebook that documents all changes. Original entries of the dataset are extended to contain fictional personal information about the patient.
 
 ## Data Source
 The original dataset is provided by the Department of Managed Health Care, California, US. For more information, visit [CalHHS Open Data Portal](https://data.chhs.ca.gov/dataset/independent-medical-review-imr-determinations-trend). [Terms of use](https://data.chhs.ca.gov/pages/terms) apply.
