@@ -1,3 +1,5 @@
 pandas
 faker
 requests
+pymongo
+python-dotenv

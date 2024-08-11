@@ -1,4 +1,4 @@
-# California IMR Dataset PII Extension
+# California IMR Dataset PII PBAC Extension
 
 This repository contains a modified and extended version of the California Independent Medical Review (IMR) dataset, along with a Jupyter notebook that documents all changes. Original entries of the dataset are extended to contain fictional personal information about the patient.
 
@@ -37,3 +37,24 @@ With the virtual environment activated, you can now install the project's depend
 ```bash
 pip install --no-cache-dir -r requirements.txt
 ```
+
+### Step 4: Create .env File:
+Create your .env file at the project root. In this example, we use a MongoDB client.
+
+```bash
+echo -e 'DB_URI="YOUR-DB-URI"\nDB_NAME="YOUR-DB-NAME"\nDB_COLLECTION="YOUR-DB-COLLECTION"' > .env
+```
+
+## Content
+
+This repository provides two jupyter notebooks:
+
+[pii_notebook](pii_notebook.ipynb)
+* Pull the California IMR dataset from its original source
+* Add fake PII data
+
+[pbac_notebook](pbac_notebook.ipynb)
+* Define purposes
+* Calculate purpose encodings
+* Assign intended purposes to data
+* Populate a database
